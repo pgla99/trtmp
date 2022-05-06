@@ -43,8 +43,12 @@ var (
 		"-loglevel", "error",
 		"-i", "",
 		"-preset", "ultrafast",
-		"-c:v", "libx264",
+		"-c:v", "copy",
+		"-b:v", "500k",
 		"-c:a", "aac",
+		"-b:a", "96k"
+		"-ar", "44100",
+		"-ac", "2"
 		"-f", "flv",
 	}
 	inputIndex = 6
