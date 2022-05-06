@@ -42,15 +42,14 @@ var (
 		"-stream_loop", "-1",
 		"-loglevel", "error",
 		"-i", "",
-		"-preset", "fast",
+		"-preset", "veryfast",
 		"-c:v", "libx264",
 		"-b:v", "1000k",
 		"-maxrate", "1000k"
 		"-bufsize", "2000k"
 		"-c:a", "aac",
-		"-b:a", "128k"
+		"-b:a", "128k",
 		"-ar", "44100",
-		"-ac", "2"
 		"-f", "flv",
 	}
 	inputIndex = 6
