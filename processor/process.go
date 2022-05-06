@@ -42,7 +42,7 @@ var (
 		"-stream_loop", "-1",
 		"-loglevel", "error",
 		"-i", "",
-		"-preset", "veryfast",
+		"-preset", "fast",
 		"-c:v", "libx264",
 		"-b:v", "1000k",
 		"-maxrate", "1000k"
